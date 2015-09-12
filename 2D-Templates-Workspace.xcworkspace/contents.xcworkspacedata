@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:PhysicsEditor-Cocos2d-Chipmunk/Cocos2d-Chipmunk.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:PhysicsEditor-Cocos2d-ObjC/PhysicsEditorCocos2d.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:TexturePacker-SpriteKit/TexturePacker-SpriteKit.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "container:/Users/hyokos/git/2D-Templates/TexturePacker-PhysicsEditor-Cocos2d/Texture_Physics_Cocos2D.xcodeproj">
+   </FileRef>
+</Workspace>
