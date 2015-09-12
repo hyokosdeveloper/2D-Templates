@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94759FDC1A29BE0900235023 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94759FDB1A29BE0900235023 /* AppDelegate.swift */; };
+		94759FDE1A29BE0900235023 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94759FDD1A29BE0900235023 /* ViewController.swift */; };
+		94759FE11A29BE0900235023 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94759FDF1A29BE0900235023 /* Main.storyboard */; };
+		94759FE31A29BE0900235023 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94759FE21A29BE0900235023 /* Images.xcassets */; };
+		94759FE61A29BE0900235023 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 94759FE41A29BE0900235023 /* LaunchScreen.xib */; };
+		94759FF21A29BE0900235023 /* SeemuSwiftiAdTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94759FF11A29BE0900235023 /* SeemuSwiftiAdTests.swift */; };
+		94759FFC1A29C2B100235023 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94759FFB1A29C2B100235023 /* CoreGraphics.framework */; };
+		94759FFE1A29C2F000235023 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94759FFD1A29C2F000235023 /* iAd.framework */; };
+		9475A0001A29C2F800235023 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94759FFF1A29C2F800235023 /* UIKit.framework */; };
+		9475A0021A29C33200235023 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9475A0011A29C33200235023 /* Foundation.framework */; };
+		9475A0041A29DDB100235023 /* cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475A0031A29DDB100235023 /* cat.swift */; };
+		9475A0061A29DDC300235023 /* dog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9475A0051A29DDC300235023 /* dog.swift */; };
+		9475A0091A29E54B00235023 /* cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 9475A0071A29E54B00235023 /* cat.png */; };
+		9475A00A1A29E54B00235023 /* dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 9475A0081A29E54B00235023 /* dog.png */; };
+		94FF71C91A5BD656007A5386 /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94FF71C81A5BD656007A5386 /* testViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94759FEC1A29BE0900235023 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94759FCE1A29BE0900235023 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94759FD51A29BE0900235023;
+			remoteInfo = SeemuSwiftiAd;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94759FD61A29BE0900235023 /* SeemuSwiftiAd.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeemuSwiftiAd.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94759FDA1A29BE0900235023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94759FDB1A29BE0900235023 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94759FDD1A29BE0900235023 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94759FE01A29BE0900235023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94759FE21A29BE0900235023 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		94759FE51A29BE0900235023 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		94759FEB1A29BE0900235023 /* SeemuSwiftiAdTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeemuSwiftiAdTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94759FF01A29BE0900235023 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94759FF11A29BE0900235023 /* SeemuSwiftiAdTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeemuSwiftiAdTests.swift; sourceTree = "<group>"; };
+		94759FFB1A29C2B100235023 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		94759FFD1A29C2F000235023 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		94759FFF1A29C2F800235023 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9475A0011A29C33200235023 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9475A0031A29DDB100235023 /* cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = cat.swift; sourceTree = "<group>"; };
+		9475A0051A29DDC300235023 /* dog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dog.swift; sourceTree = "<group>"; };
+		9475A0071A29E54B00235023 /* cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cat.png; sourceTree = "<group>"; };
+		9475A0081A29E54B00235023 /* dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dog.png; sourceTree = "<group>"; };
+		94FF71C81A5BD656007A5386 /* testViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94759FD31A29BE0900235023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9475A0021A29C33200235023 /* Foundation.framework in Frameworks */,
+				9475A0001A29C2F800235023 /* UIKit.framework in Frameworks */,
+				94759FFE1A29C2F000235023 /* iAd.framework in Frameworks */,
+				94759FFC1A29C2B100235023 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94759FE81A29BE0900235023 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94759FCD1A29BE0900235023 = {
+			isa = PBXGroup;
+			children = (
+				9475A0011A29C33200235023 /* Foundation.framework */,
+				94759FFF1A29C2F800235023 /* UIKit.framework */,
+				94759FFD1A29C2F000235023 /* iAd.framework */,
+				94759FFB1A29C2B100235023 /* CoreGraphics.framework */,
+				94759FD81A29BE0900235023 /* SeemuSwiftiAd */,
+				94759FEE1A29BE0900235023 /* SeemuSwiftiAdTests */,
+				94759FD71A29BE0900235023 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94759FD71A29BE0900235023 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94759FD61A29BE0900235023 /* SeemuSwiftiAd.app */,
+				94759FEB1A29BE0900235023 /* SeemuSwiftiAdTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94759FD81A29BE0900235023 /* SeemuSwiftiAd */ = {
+			isa = PBXGroup;
+			children = (
+				9475A0071A29E54B00235023 /* cat.png */,
+				9475A0081A29E54B00235023 /* dog.png */,
+				94759FDB1A29BE0900235023 /* AppDelegate.swift */,
+				94759FDD1A29BE0900235023 /* ViewController.swift */,
+				94FF71C81A5BD656007A5386 /* testViewController.swift */,
+				94759FDF1A29BE0900235023 /* Main.storyboard */,
+				9475A0031A29DDB100235023 /* cat.swift */,
+				9475A0051A29DDC300235023 /* dog.swift */,
+				94759FE21A29BE0900235023 /* Images.xcassets */,
+				94759FE41A29BE0900235023 /* LaunchScreen.xib */,
+				94759FD91A29BE0900235023 /* Supporting Files */,
+			);
+			path = SeemuSwiftiAd;
+			sourceTree = "<group>";
+		};
+		94759FD91A29BE0900235023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94759FDA1A29BE0900235023 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		94759FEE1A29BE0900235023 /* SeemuSwiftiAdTests */ = {
+			isa = PBXGroup;
+			children = (
+				94759FF11A29BE0900235023 /* SeemuSwiftiAdTests.swift */,
+				94759FEF1A29BE0900235023 /* Supporting Files */,
+			);
+			path = SeemuSwiftiAdTests;
+			sourceTree = "<group>";
+		};
+		94759FEF1A29BE0900235023 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				94759FF01A29BE0900235023 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94759FD51A29BE0900235023 /* SeemuSwiftiAd */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94759FF51A29BE0900235023 /* Build configuration list for PBXNativeTarget "SeemuSwiftiAd" */;
+			buildPhases = (
+				94759FD21A29BE0900235023 /* Sources */,
+				94759FD31A29BE0900235023 /* Frameworks */,
+				94759FD41A29BE0900235023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeemuSwiftiAd;
+			productName = SeemuSwiftiAd;
+			productReference = 94759FD61A29BE0900235023 /* SeemuSwiftiAd.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94759FEA1A29BE0900235023 /* SeemuSwiftiAdTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94759FF81A29BE0900235023 /* Build configuration list for PBXNativeTarget "SeemuSwiftiAdTests" */;
+			buildPhases = (
+				94759FE71A29BE0900235023 /* Sources */,
+				94759FE81A29BE0900235023 /* Frameworks */,
+				94759FE91A29BE0900235023 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94759FED1A29BE0900235023 /* PBXTargetDependency */,
+			);
+			name = SeemuSwiftiAdTests;
+			productName = SeemuSwiftiAdTests;
+			productReference = 94759FEB1A29BE0900235023 /* SeemuSwiftiAdTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94759FCE1A29BE0900235023 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = Seemu;
+				TargetAttributes = {
+					94759FD51A29BE0900235023 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = XLDG57CC7V;
+					};
+					94759FEA1A29BE0900235023 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 94759FD51A29BE0900235023;
+					};
+				};
+			};
+			buildConfigurationList = 94759FD11A29BE0900235023 /* Build configuration list for PBXProject "SeemuSwiftiAd" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94759FCD1A29BE0900235023;
+			productRefGroup = 94759FD71A29BE0900235023 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94759FD51A29BE0900235023 /* SeemuSwiftiAd */,
+				94759FEA1A29BE0900235023 /* SeemuSwiftiAdTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94759FD41A29BE0900235023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94759FE11A29BE0900235023 /* Main.storyboard in Resources */,
+				9475A00A1A29E54B00235023 /* dog.png in Resources */,
+				94759FE61A29BE0900235023 /* LaunchScreen.xib in Resources */,
+				9475A0091A29E54B00235023 /* cat.png in Resources */,
+				94759FE31A29BE0900235023 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94759FE91A29BE0900235023 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94759FD21A29BE0900235023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94759FDE1A29BE0900235023 /* ViewController.swift in Sources */,
+				94759FDC1A29BE0900235023 /* AppDelegate.swift in Sources */,
+				9475A0061A29DDC300235023 /* dog.swift in Sources */,
+				94FF71C91A5BD656007A5386 /* testViewController.swift in Sources */,
+				9475A0041A29DDB100235023 /* cat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94759FE71A29BE0900235023 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94759FF21A29BE0900235023 /* SeemuSwiftiAdTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94759FED1A29BE0900235023 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94759FD51A29BE0900235023 /* SeemuSwiftiAd */;
+			targetProxy = 94759FEC1A29BE0900235023 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94759FDF1A29BE0900235023 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94759FE01A29BE0900235023 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94759FE41A29BE0900235023 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94759FE51A29BE0900235023 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94759FF31A29BE0900235023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94759FF41A29BE0900235023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94759FF61A29BE0900235023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeemuSwiftiAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		94759FF71A29BE0900235023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SeemuSwiftiAd/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		94759FF91A29BE0900235023 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeemuSwiftiAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeemuSwiftiAd.app/SeemuSwiftiAd";
+			};
+			name = Debug;
+		};
+		94759FFA1A29BE0900235023 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeemuSwiftiAdTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SeemuSwiftiAd.app/SeemuSwiftiAd";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94759FD11A29BE0900235023 /* Build configuration list for PBXProject "SeemuSwiftiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94759FF31A29BE0900235023 /* Debug */,
+				94759FF41A29BE0900235023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94759FF51A29BE0900235023 /* Build configuration list for PBXNativeTarget "SeemuSwiftiAd" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94759FF61A29BE0900235023 /* Debug */,
+				94759FF71A29BE0900235023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94759FF81A29BE0900235023 /* Build configuration list for PBXNativeTarget "SeemuSwiftiAdTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94759FF91A29BE0900235023 /* Debug */,
+				94759FFA1A29BE0900235023 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94759FCE1A29BE0900235023 /* Project object */;
+}

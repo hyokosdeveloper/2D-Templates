@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>flurryApiKey</key>
+	<string>2WZ22NRSX8W52VKZBX9G</string>
+	<key>flurryAdSpace</key>
+	<string>infeed_video_yodel</string>
+	<key>yahooSearchAppId</key>
+	<string>Insert Search AppId Here</string>
+	<key>tumblrApiKey</key>
+	<string>uHJxDgqpeoFeg2TJiUU9PYYKV6Q5FnhcaKvrsIEM4PJtkQnnwY</string>
+	<key>tumblrBlogName</key>
+	<string>yodelsample</string>
+</dict>
+</plist>
