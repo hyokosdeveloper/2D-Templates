@@ -4,10 +4,23 @@
     <dict>
         <key>frames</key>
         <dict>
+            <key>Joker_Bomb.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,2},{164,202}}</string>
+                <key>offset</key>
+                <string>{-1,4}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{1,1},{164,202}}</string>
+                <key>sourceSize</key>
+                <string>{168,212}</string>
+            </dict>
             <key>bombButton1.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,41},{37,38}}</string>
+                <string>{{203,205},{37,38}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -20,7 +33,7 @@
             <key>bombButton1Down.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{2,2},{37,38}}</string>
+                <string>{{108,210},{37,38}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
@@ -30,10 +43,49 @@
                 <key>sourceSize</key>
                 <string>{37,38}</string>
             </dict>
+            <key>green_grenede.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{2,168},{63,104}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{0,1},{63,104}}</string>
+                <key>sourceSize</key>
+                <string>{63,106}</string>
+            </dict>
+            <key>metal_bomb.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{206,2},{201,57}}</string>
+                <key>offset</key>
+                <string>{2,1}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{9,10},{201,57}}</string>
+                <key>sourceSize</key>
+                <string>{215,79}</string>
+            </dict>
+            <key>nuclear_bomb.png</key>
+            <dict>
+                <key>frame</key>
+                <string>{{108,168},{40,93}}</string>
+                <key>offset</key>
+                <string>{0,0}</string>
+                <key>rotated</key>
+                <true/>
+                <key>sourceColorRect</key>
+                <string>{{3,0},{40,93}}</string>
+                <key>sourceSize</key>
+                <string>{46,93}</string>
+            </dict>
             <key>pauseButtonDown.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{42,57},{16,15}}</string>
+                <string>{{243,227},{16,15}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -46,7 +98,7 @@
             <key>pauseButtonUp.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{42,40},{16,15}}</string>
+                <string>{{148,210},{16,15}}</string>
                 <key>offset</key>
                 <string>{-1,0}</string>
                 <key>rotated</key>
@@ -59,11 +111,11 @@
             <key>redSpaceship.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{42,2},{19,20}}</string>
+                <string>{{243,205},{19,20}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <true/>
+                <false/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{19,20}}</string>
                 <key>sourceSize</key>
@@ -72,11 +124,11 @@
             <key>simpleStar.png</key>
             <dict>
                 <key>frame</key>
-                <string>{{42,23},{16,15}}</string>
+                <string>{{166,210},{16,15}}</string>
                 <key>offset</key>
                 <string>{0,0}</string>
                 <key>rotated</key>
-                <false/>
+                <true/>
                 <key>sourceColorRect</key>
                 <string>{{0,0},{16,15}}</string>
                 <key>sourceSize</key>
@@ -87,8 +139,12 @@
         <dict>
             <key>format</key>
             <integer>2</integer>
+            <key>realTextureFileName</key>
+            <string>Sprites.pvr.ccz</string>
             <key>size</key>
-            <string>{64,128}</string>
+            <string>{265,249}</string>
+            <key>smartupdate</key>
+            <string>$TexturePacker:SmartUpdate:2c9277fd69a180df0d345e909c0abee5:870e0641627d45cdbd6603c39747f1af:8e9ec22a2c0ec922c15f2d7e51a327b3$</string>
             <key>textureFileName</key>
             <string>Sprites.pvr.ccz</string>
         </dict>

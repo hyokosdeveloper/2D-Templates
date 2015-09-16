@@ -159,11 +159,11 @@
 		33C2D34F1394F278009D385D /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33C2D34E1394F278009D385D /* HelloWorldLayer.mm */; };
 		33C2D3521394F278009D385D /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33C2D3511394F278009D385D /* GLES-Render.mm */; };
 		33C2D36C13951780009D385D /* GB2ShapeCache.mm in Sources */ = {isa = PBXBuildFile; fileRef = 33C2D36B13951780009D385D /* GB2ShapeCache.mm */; };
-		53B6D0B413CB7C5900C23ACD /* shapedefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B6D0AF13CB7C5900C23ACD /* shapedefs.plist */; };
 		53B6D0B513CB7C5900C23ACD /* Sprites-hd.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B6D0B013CB7C5900C23ACD /* Sprites-hd.plist */; };
 		53B6D0B613CB7C5900C23ACD /* Sprites-hd.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 53B6D0B113CB7C5900C23ACD /* Sprites-hd.pvr.ccz */; };
 		53B6D0B713CB7C5900C23ACD /* Sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = 53B6D0B213CB7C5900C23ACD /* Sprites.plist */; };
 		53B6D0B813CB7C5900C23ACD /* Sprites.pvr.ccz in Resources */ = {isa = PBXBuildFile; fileRef = 53B6D0B313CB7C5900C23ACD /* Sprites.pvr.ccz */; };
+		FDBCDBDC1BA7F98B00984333 /* shapedefs.plist in Resources */ = {isa = PBXBuildFile; fileRef = FDBCDBDB1BA7F98B00984333 /* shapedefs.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -479,11 +479,11 @@
 		33C2D3531394F278009D385D /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		33C2D36A13951780009D385D /* GB2ShapeCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GB2ShapeCache.h; sourceTree = "<group>"; };
 		33C2D36B13951780009D385D /* GB2ShapeCache.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GB2ShapeCache.mm; sourceTree = "<group>"; };
-		53B6D0AF13CB7C5900C23ACD /* shapedefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = shapedefs.plist; path = Resources/shapedefs.plist; sourceTree = "<group>"; };
 		53B6D0B013CB7C5900C23ACD /* Sprites-hd.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "Sprites-hd.plist"; path = "Resources/Sprites-hd.plist"; sourceTree = "<group>"; };
 		53B6D0B113CB7C5900C23ACD /* Sprites-hd.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Sprites-hd.pvr.ccz"; path = "Resources/Sprites-hd.pvr.ccz"; sourceTree = "<group>"; };
 		53B6D0B213CB7C5900C23ACD /* Sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Sprites.plist; path = Resources/Sprites.plist; sourceTree = "<group>"; };
 		53B6D0B313CB7C5900C23ACD /* Sprites.pvr.ccz */ = {isa = PBXFileReference; lastKnownFileType = file; name = Sprites.pvr.ccz; path = Resources/Sprites.pvr.ccz; sourceTree = "<group>"; };
+		FDBCDBDB1BA7F98B00984333 /* shapedefs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = shapedefs.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1019,7 +1019,7 @@
 		33C2D35F139509A2009D385D /* SpriteSheets */ = {
 			isa = PBXGroup;
 			children = (
-				53B6D0AF13CB7C5900C23ACD /* shapedefs.plist */,
+				FDBCDBDB1BA7F98B00984333 /* shapedefs.plist */,
 				53B6D0B013CB7C5900C23ACD /* Sprites-hd.plist */,
 				53B6D0B113CB7C5900C23ACD /* Sprites-hd.pvr.ccz */,
 				53B6D0B213CB7C5900C23ACD /* Sprites.plist */,
@@ -1091,8 +1091,8 @@
 				33C2D18F1394F272009D385D /* Icon-Small@2x.png in Resources */,
 				33C2D1911394F272009D385D /* Icon.png in Resources */,
 				33C2D1931394F272009D385D /* Icon@2x.png in Resources */,
+				FDBCDBDC1BA7F98B00984333 /* shapedefs.plist in Resources */,
 				33C2D1961394F272009D385D /* iTunesArtwork in Resources */,
-				53B6D0B413CB7C5900C23ACD /* shapedefs.plist in Resources */,
 				53B6D0B513CB7C5900C23ACD /* Sprites-hd.plist in Resources */,
 				53B6D0B613CB7C5900C23ACD /* Sprites-hd.pvr.ccz in Resources */,
 				53B6D0B713CB7C5900C23ACD /* Sprites.plist in Resources */,

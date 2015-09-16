@@ -162,10 +162,10 @@ enum {
 // Names of your sprite frames
 NSString *names[] = 
 {
-	@"bombButton1",
-	@"bombButton1Down",
-	@"pauseButtonDown",
-	@"pauseButtonUp",
+	@"Joker_Bomb",
+	@"green_grenede",
+	@"metal_bomb",
+	@"nuclear_bomb",
 	@"redSpaceship",
 	@"simpleStar"
 };
